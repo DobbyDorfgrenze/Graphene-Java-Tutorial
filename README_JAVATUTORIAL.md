@@ -59,7 +59,7 @@ Then you'll need to have installed git:
   ```sh
   sudo apt install git-all
   ```
-You also have to patch your kernel. Here is a [https://www.youtube.com/watch?v=7a8lYEvBqJE] (quick guide) on how to do it.
+You also have to patch your kernel. Here is a [https://www.youtube.com/watch?v=7a8lYEvBqJE]guide on how to do it.
 
 ### Installation
 
