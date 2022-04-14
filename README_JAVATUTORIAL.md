@@ -122,7 +122,7 @@ The .class file is made the usual way with:
    ```
 Next you have to generate the manifest:
    ```sh
-   jar cvfm hello.jar hello.mf hello.class
+   jar cvfm hello.jar HelloWorld.mf HelloWorld.class
    ```
 And build it with:
    ```sh
@@ -130,11 +130,11 @@ And build it with:
    ```
 Now you can run the program in an enclaive:
    ```sh
-   graphene-direct java -jar hello.jar
+   graphene-direct java -jar HelloWorld.jar
    ```
 If you are using a virtual machine and get an error like "Too small maximum heap", it means the VM used not enough memory for running the script. You can easily fix this with:
    ```sh
-   graphene-direct java -Xmx2g -jar hello.jar
+   graphene-direct java -Xmx2g -jar HelloWorld.jar
    ```
 Xmx2g means, that you are assigning 2 Gigabyte (2g) to the enclaive size.
 
